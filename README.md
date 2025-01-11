@@ -97,7 +97,7 @@ The program detects and reports errors such as:
 - Improper command syntax.
 - Undefined variables.
 
-Refer to the `input2errors.txt` file for examples of erroneous commands.
+Refer to the `test3_output.txt` file for examples of erroneous commands.
 
 ## Cleaning Up
 
