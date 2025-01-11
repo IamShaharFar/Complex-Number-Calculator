@@ -1,0 +1,14 @@
+read_comp A, 3.5, 2.0
+print_comp A
+read_comp G, 3.1, 6.5
+read_comp @, 3.6, 5.1
+read_comp A, abc, 6.5
+read_comp ,3.5, 6.5
+read_comp A, 3.5, 6.5, 7.8
+read_comp A, 3.5, 6.5 extra
+read_comp A,, 3.5, 6.5
+add_comp A, B
+add_comp A, G
+sub_comp A, B, C
+READ_COMP A, 3.5, 6.5
+stop extra text

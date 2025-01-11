@@ -1,0 +1,32 @@
+
+Welcome to the Complex Number Calculator!
+Enter commands (type 'stop' to exit):
+>> read_comp A, 3.5, 2.0
+>> print_comp A
+3.50 + (2.00)i
+>> read_comp G, 3.1, 6.5
+Error: Undefined complex variable
+>> read_comp @, 3.6, 5.1
+Error: Undefined complex variable
+>> read_comp A, abc, 6.5
+Error: Invalid parameter - not a number
+>> read_comp ,3.5, 6.5
+Error: Illegal comma
+>> read_comp A, 3.5, 6.5, 7.8
+Error: Extraneous text after end of command
+>> read_comp A, 3.5, 6.5 extra
+Error: Extraneous text after end of command
+>> read_comp A,, 3.5, 6.5
+Error: Multiple consecutive commas
+>> add_comp A, B
+3.50 + (2.00)i
+>> add_comp A, G
+Error: Undefined complex variable
+>> sub_comp A, B, C
+Error: Extraneous text after end of command
+>> READ_COMP A, 3.5, 6.5
+Error: Undefined command name
+>> stop extra text
+Error: Extraneous text after end of command
+>> 
+Error: Input ended unexpectedly
